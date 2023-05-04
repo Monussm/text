@@ -1,0 +1,57 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="row">
+              <h4 class="text-dark">Kids<span>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-sm-6">
+            <div class="row float-end me-2">
+                <a class="text-decoration-none ShowMoreBtn" href="/men">Show More</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        {{#each kid}}
+        <div class="col-md-3 col-sm-3">
+        <a href="/men" class="text-decoration-none text-dark">
+            <div class="card ms-3">
+           <img class="mt-3 mx-auto " src="../Image/ailwc_400.webp" style="width:244px";"height:349px">
+                <span class="mt-3 mx-auto mt-2">{{ProductName}}</span>
+                <br>
+                <span  class="mt-3 mx-auto mt-2">{{ProductDetails}}</span>
+                <br>
+                <span class="mt-3 mx-auto mt-2"><strong>Rs</strong> {{Price}}</span> 
+                <br>
+                <div class="row">
+                <a class="rating  mx-auto mt-2 mb-2 text-decoration-none" href="/menproduct">Buy Now</a>
+                </div>
+            </div>
+        </a>
+        </div>
+         {{/each}}
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
